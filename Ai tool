@@ -47,8 +47,8 @@ def calculate_fractals(df):
     return df
 
 # Binance setup
-api_key = os.getenv("BINANCE_API_KEY")
-api_secret = os.getenv("BINANCE_API_SECRET")
+api_key = os.getenv("JiV7ENbyO4eDcrY7xi9eLNsKLWl8kL6JdtqOwH3O54MjxKLs004NvKAmSfcF0Huw")
+api_secret = os.getenv("eTx3JFuXMbaCFPYJbAy4ZpYzeBW2eqKSDocldFqCDk8mv3xLT88fzB0IYARZLCjH")
 exchange = ccxt.binance({
     'apiKey': api_key,
     'secret': api_secret,
